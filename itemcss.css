@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(102, 96, 96);
+    text-align: center;
+
+}
+h3{
+    color:darkgray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.images{
+    
+    margin: 4px;
+    background-size: cover;
+}
+.btn{
+    margin-top:20px;
+}
