@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu
+{
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+}
+.menu ul
+{
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li
+{
+    width: 150px;
+    margin: 10px;            /*   providing margin,space and padding for menu in black backgorund*/
+    padding: 15px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;     /* Menu word color, font and removing hyperlink display*/
+    color: white;
+    font-family: arial;
+}
+.fa
+{
+    margin-left: 5px;                  /* icon spacing*/
+}
+.menu ul li:hover
+{
+    background-color: tomato;   /* hover color */
+}
+.dropdown1
+{
+    display: none;               /* dropdown menu  aka submenu display is removed*/
+}
+.menu ul li:hover .dropdown1
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    margin-top: 15px;                             /* postitioning of submenu */
+    margin-left: -25px;                           /* positioning of submenu*/
+}
+.menu ul li:hover .dropdown1 ul                  /* submenu becomes verical in line*/
+{
+    display: block;
+}
+.menu ul li:hover .dropdown1 ul li
+{
+    background: transparent;                          /* submenu hover color removed and underline added */
+    border-bottom: 1px solid tomato;
+    width: 150px;
+}
+.menu ul li:hover .dropdown1 ul li a:hover
+{
+    color: tomato;              /* submenu words coloured*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
