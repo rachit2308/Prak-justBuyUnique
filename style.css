@@ -73,8 +73,15 @@ h3{
 .nav-items a img{
     width: 30px;
 }
+/* bottom container reach us at */
+.bottom-container{ 
+    text-align: center;
+    padding-bottom: 15px;
+}
 
-
+.footer-link {
+    margin-left: 3rem;
+}
 
 .menu{
     background-color: rgb(50, 50, 50);
@@ -362,10 +369,14 @@ padding-bottom: 20px;
     color: #ffffff;
     
 }
-
-.foot-col ul li a iframe
+.bottom-container h2
 {
-    margin-left: -100px;
+    margin-left: 50px;
+}
+.bottom-container i
+{
+    padding-top: 20px;
+    width: 150px;
 }
 
  /* responsive*/
