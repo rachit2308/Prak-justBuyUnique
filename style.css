@@ -73,7 +73,11 @@ h3{
 .nav-items a img{
     width: 30px;
 }
-
+/* bottom container reach us at */
+.bottom-container{ 
+    text-align: center;
+    padding-bottom: 35px;
+}
 
 
 .menu{
@@ -125,26 +129,21 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 
 
 .marquee{
-    border: 1px solid black;
     color: red;
     height: 50px;
     padding-top: 10px;
     font-size: 20px;
 }
 .first{
-    border: 1px solid yellowgreen;
     height: 60vh;
 }
 .second{
-    border: 1px solid yellowgreen;
     height: 60vh;
 }
 .third{
-    border: 1px solid yellowgreen;
     height: 70vh;
 }
 .fourth{
-    border: 1px solid yellowgreen;
     height: 7 0vh;
     display: flex;
     flex-direction: row;
@@ -153,7 +152,6 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
     margin-bottom: 50px;
 }
 .fifth{
-    border: 1px solid yellowgreen;
     height: 60vh;
 }
  
@@ -188,47 +186,6 @@ body{
     background-repeat: no-repeat;
     height:100vh;
 }
-/* 
-.footer{
-    background-color: #b9b5b5;
-    height: 275px;
-    display: flex;
-    flex-direction: row;
- 
-}
-.tag-line{
-    width: 500px;
-    padding: 20px;
-    margin-left: 0px;
-    padding-top: 70px;
-   
-}
-.company{
-    width: 400px;
-    margin-left: px;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 20px;
-}
-
-.guide{
-    width: 400px;
-   
-    margin-left: px;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 20px;
-   
-}
-
-.help-support{
-   
-    width: 400px;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 20px;
-}
-*/
 
 
 
