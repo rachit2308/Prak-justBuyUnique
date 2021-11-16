@@ -76,9 +76,12 @@ h3{
 /* bottom container reach us at */
 .bottom-container{ 
     text-align: center;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
 }
 
+.footer-link {
+    margin-left: 3rem;
+}
 
 .menu{
     background-color: rgb(50, 50, 50);
