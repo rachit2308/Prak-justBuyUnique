@@ -394,12 +394,12 @@ padding-bottom: 20px;
 .foot2 a
 {
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     background-color: rgba(255,255,255,0.2);
     margin: 0 100px 20px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     border-radius: 50%;
     color: #ffffff;
     
@@ -408,6 +408,11 @@ padding-bottom: 20px;
 {
     color: #ffffff;
     
+}
+
+.foot-col ul li a iframe
+{
+    margin-left: -100px;
 }
 
  /* responsive*/
