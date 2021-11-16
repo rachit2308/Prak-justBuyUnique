@@ -73,7 +73,11 @@ h3{
 .nav-items a img{
     width: 30px;
 }
-
+/* bottom container reach us at */
+.bottom-container{ 
+    text-align: center;
+    padding-bottom: 35px;
+}
 
 
 .menu{
