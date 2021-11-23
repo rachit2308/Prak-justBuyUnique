@@ -252,11 +252,34 @@ h3{
     
 }
 
+/* CSS Button Generator */
 
-
-
-
-
+.btn {
+    background: #8f878f;
+    background-image: -webkit-linear-gradient(top, #8f878f, #7a757a);
+    background-image: -moz-linear-gradient(top, #8f878f, #7a757a);
+    background-image: -ms-linear-gradient(top, #8f878f, #7a757a);
+    background-image: -o-linear-gradient(top, #8f878f, #7a757a);
+    background-image: linear-gradient(to bottom, #8f878f, #7a757a);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #fffcff;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
 
 
 

@@ -1,7 +1,8 @@
 body{
     background-color: darkgrey;
     text-align: center;
-    font-family: cursive ;
+    font-family: 'Playfair Display', serif;
+    background-color: #C2FFF9;
 }
 h1{
     color: rgb(116, 111, 73);
