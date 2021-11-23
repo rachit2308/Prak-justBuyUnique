@@ -283,6 +283,8 @@ h3{
 
 
 
+
+
 .contain
 {
      max-width: 1270px;
@@ -419,7 +421,6 @@ padding-bottom: 20px;
     }
 }
 
-}
 @media(max-width: 1300px)
 {
     .bottom-container{
@@ -428,4 +429,24 @@ padding-bottom: 20px;
 }
 
 
-@media(max)
+@media(max-width: 1300px)
+{
+    .container1{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1300px)
+{
+    .navbar{
+        width: 60%;
+    }
+}
+
+
+@menu(max-width: 1000px)
+{
+    .menu{
+        width: 70%;
+    }
+}
