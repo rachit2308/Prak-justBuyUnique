@@ -411,3 +411,21 @@ padding-bottom: 20px;
         width: 100%;
     }
 }
+
+@media(max-width: 1300px)
+{
+    .bottom-mid{
+        width: 60%;
+    }
+}
+
+}
+@media(max-width: 1300px)
+{
+    .bottom-container{
+        width: 60%;
+    }
+}
+
+
+@media(max)
