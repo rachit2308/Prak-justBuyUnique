@@ -23,7 +23,7 @@ class login
             if ($row['password'] == $password)
             {
 
-                $_SESSION['blog_userid'] = $row['userid'];
+                $_SESSION['uid'] = $row['uid'];
             
             }
             else

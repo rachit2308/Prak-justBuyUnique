@@ -7,3 +7,8 @@ function mySecFunction()
 {
     alert("Please, First Log in to your account!");
 }
+
+function myThirdFunction()
+{
+    
+}

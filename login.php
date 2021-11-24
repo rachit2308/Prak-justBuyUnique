@@ -10,7 +10,7 @@ $password = "";
     if ($_SERVER['REQUEST_METHOD']=='POST')
     {
         $login = new login();
-        print_r($_POST);
+        // print_r($_POST);
         $result = $login->evaluate($_POST);
         if ($result != "")
         {
@@ -21,8 +21,8 @@ $password = "";
         }
         else
         {
-          // $_SESSION['username'] = 
-            header("Location: index.html");
+           $_SESSION['username'] = $_POST['email'];
+            header("Location: index.php");
             die;
         }
         
@@ -55,7 +55,7 @@ $password = "";
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register.php">Register</a>
