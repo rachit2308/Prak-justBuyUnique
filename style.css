@@ -79,6 +79,7 @@ h1{
 h3{
     text-align:center;
     font-size: 30px;
+    color:darkgray;
 }
 .bottom-mid{
     font-size: 50px;
@@ -137,7 +138,7 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 }    
 
 
-
+/*MENU*/
 .first{
     height: 100vh;
 }
@@ -157,36 +158,6 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 }
 .fifth{
     height: 60vh;
-}
- 
-.main{
-    display: flex;
-    height: 300px;
-    background-color: cornflowerblue;
-}
-.outer{
-    text-align: center;
-    padding: 3%;
-    justify-content: center;
-    width: 50%;
-}
-.outer1{
-    text-align: center;
-    padding: 3%;
-    justify-content: center;
-    width: 50%;
-    font-size: 20px;
-}
-.outer2{
-    text-align: center;
-    padding: 3%;
-    justify-content: center;
-    width: 50%;
-    font-size: 20px;
-}
-
-h3{
-    color:darkgray;
 }
 .container{
     display: flex;
@@ -213,11 +184,37 @@ h3{
     flex-direction: row;
     
 }
+ 
 
-
-.btn{
-    margin-top:20px;
+/*BLUE BAR*/
+.main{
+    display: flex;
+    height: 300px;
+    background-color: cornflowerblue;
 }
+.outer{
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+    width: 50%;
+}
+.outer1{
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+}
+.outer2{
+    text-align: center;
+    padding: 3%;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+
+
 
 .images{
     
@@ -292,7 +289,7 @@ ul
 {
     background-color: #21262b;
     padding: 70px 0px;
-    height: 600px;
+    height: 400px;
 }
 .foot-col
 {
@@ -379,9 +376,13 @@ padding-bottom: 20px;
     color: #ffffff;
     
 }
-.foot3 
-{
-    color: #ffffff;
+
+.foot3{
+    background-color: #383838a2;
+    width: 50%;
+    margin-left:330px ;
+    color: rgb(255, 255, 255);
+    
     
 }
 .bottom-container h2
@@ -394,15 +395,21 @@ padding-bottom: 20px;
     width: 150px;
 }
 
-/* bottom container reach us at */
+/* Bottom container reach us at */
 .bottom-container{ 
     text-align: center;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    background-color: #b1aeae;
 }
 
 .footer-link {
     margin-left: 3rem;
 }
+
+
+
 
 
  /* responsive*/
@@ -414,40 +421,9 @@ padding-bottom: 20px;
         width: 100%;
     }
 }
-
 @media(max-width: 1300px)
 {
     .bottom-mid{
         width: 60%;
-    }
-}
-
-@media(max-width: 1300px)
-{
-    .bottom-container{
-        width: 60%;
-    }
-}
-
-
-@media(max-width: 1300px)
-{
-    .container1{
-        width: 60%;
-    }
-}
-
-@media(max-width: 1300px)
-{
-    .navbar{
-        width: 60%;
-    }
-}
-
-
-@menu(max-width: 1000px)
-{
-    .menu{
-        width: 70%;
     }
 }
