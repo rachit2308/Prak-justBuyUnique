@@ -138,16 +138,28 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 }    
 
 
-/*MENU*/
+
 .first{
-    height: 100vh;
+    padding: 0 5vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
+ .first::-webkit-scrollbar {
+    display: none;
+} 
+
+
 .second{
     height: 60vh;
 }
+
+
 .third{
     height: 70vh;
 }
+
+
 .fourth{
     height: 7 0vh;
     display: flex;
@@ -156,14 +168,56 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
     align-items: center;
     margin-bottom: 50px;
 }
+
+
 .fifth{
     height: 60vh;
 }
+
+
 .container{
     display: flex;
     flex-direction: row;
     
 }
+
+/* image border circle */
+.product {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5rem;
+}
+
+.container2{
+    margin-top: 1rem;
+    flex: 0 0 auto;
+    width: 310px;
+    height: 450px;
+    margin-right: 40px;  
+}
+
+
+.discount-tag {
+    position: absolute;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    top: 10px;
+    text-transform: capitalize;
+}
+
+
+.images{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;   
+}
+
+
 
 .btn{
     margin-top:20px;
@@ -174,17 +228,15 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
     flex-direction: row;
     
 }
-.container2{
-    display: flex;
-    flex-direction: row;
-    
-}
+
+
 .container4 {
     display: flex;
     flex-direction: row;
     
 }
- 
+
+
 
 /*BLUE BAR*/
 .main{
@@ -215,14 +267,6 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 
 
 
-
-.images{
-    
-    margin: 4px;
-    background-size:cover;
-    box-shadow: black 0 0 30PX;
-    
-}
 .btn a
 {
     text-decoration: none;
@@ -427,3 +471,155 @@ padding-bottom: 20px;
         width: 60%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+.first{
+    flex: 0 0 auto;
+    width: 350px;
+    height: 420px;
+    margin-right: 40px; 
+    margin-top: 1rem;
+    /* padding: 0 51vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;  */
+
+/* .first::-webkit-scrollbar {
+    display: none;
+} 
+.second{
+    height: 60vh;
+}
+
+
+.third{
+    height: 70vh;
+}
+
+
+.fourth{
+    height: 7 0vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.fifth{
+    height: 60vh;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* image border circle 
+.product {
+    width:300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.product1 {
+    width:300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+/* .product1 {
+    width:300px;
+    height: 340px;
+    object-fit: cover;
+    border-radius:50%;
+} 
+
+
+.btn{
+    margin-top:20px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ /* ///////////////////////////////////////////////////////////////// finL CHANGE 
+.container2{
+    /* display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;    
+}
+
+
+.container22 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ /* ///////////////////////////////////////////////////////////////// */
+
+ /*  changes in images discount tag  
+
+.discount-tag {
+    position: absolute;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    left: 10px;
+    top: 10px;
+    text-transform: capitalize;
+} */

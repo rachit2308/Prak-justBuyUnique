@@ -9,16 +9,15 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRAK</title>
+    <title>PRAK-justBuyUnique</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fa28b20391.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--NAVIGATION BAR -->
   <nav class ="navbar">
     <div class="nav">
 
-        <h1>PRAK</h1>
+        <h1>𝓟𝓡𝓐𝓚</h1>
         <div class="nav-items">
           <div class="search">
             <input type="text" class="search-box" placeholder="Search-unique">
@@ -107,7 +106,215 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     </ul>
   </div>
 
-<!--ITEM-->
+
+<section class="product">
+<div class="first">    
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore1-1.html">
+      <span class="discount-tag">29% off</span>
+        <img src="rings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore1-2.html">
+      <span class="discount-tag">21% off</span>
+        <img src="necklace.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore1-3.html">
+      <span class="discount-tag">25% off</span>
+        <img src="earings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore1-4.html">
+      <span class="discount-tag">49% off</span>
+        <img src="bangles.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<hr>
+
+<section class="product">
+<div class="first">    
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore2-1.html">
+      <span class="discount-tag">59% off</span>
+        <img src="rings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore2-2.html">
+      <span class="discount-tag">69% off</span>
+        <img src="necklace.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore2-3.html">
+      <span class="discount-tag">19% off</span>
+        <img src="earings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore2-4.html">
+      <span class="discount-tag">79% off</span>
+        <img src="bangles.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<hr>
+
+
+<section class="product">
+<div class="first">    
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore3-1.html">
+      <span class="discount-tag">74% off</span>
+        <img src="rings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore3-2.html">
+      <span class="discount-tag">35% off</span>
+        <img src="necklace.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore3-3.html">
+      <span class="discount-tag">19% off</span>
+        <img src="earings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore3-4.html">
+      <span class="discount-tag">15% off</span>
+        <img src="bangles.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<hr>
+
+<section class="product">
+<div class="first">    
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore4-1.html">
+      <span class="discount-tag">38% off</span>
+        <img src="rings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore4-2.html">
+      <span class="discount-tag">29% off</span>
+        <img src="necklace.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore4-3.html">
+      <span class="discount-tag">24% off</span>
+        <img src="earings.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore4-4.html">
+      <span class="discount-tag">17% off</span>
+        <img src="bangles.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<hr>
+
+
+
+
+<!-- ITEM
     <div class="first">
       <div class = "container2">
         <div class="images">
@@ -199,7 +406,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     </div>
     </div>
     <!-- names -->
-    <div class="fourth">
+    <!-- <div class="fourth">
       <div class = "container4">
         <div class="images" style="width:45%" >
             <img src="telephone.jpg" width="100%" height="75%"><br>
@@ -248,8 +455,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
             <button class="btn"><a href="viewmore5-4.html">View More</a></button>
         </div>
     </div>
-    </div>
-  
+    </div> -->
   <br>
   <br>
   <br>
