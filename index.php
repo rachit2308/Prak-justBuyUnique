@@ -312,8 +312,8 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <div class="foot-col">
         <h3>Guide</h3>
               <ul>
-            <li><a href="#">How To Buy</a></li>
-            <li><a href="#">How To Sell</a></li>
+            <li><a href="https://www.builderfly.com/how-to-get-products-to-sell-on-my-ecommerce-website-guide/">How To Buy</a></li>
+            <li><a href="https://www.bigcommerce.com/blog/source-products-online-business/">How To Sell</a></li>
            </ul>
         </div>
       <div class="foot-col">
@@ -335,7 +335,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       </div>
     </div>
     <div class="foot1">
-      <p>Register for Free - <a href="#">  Signup!</a></p>
+      <p>Register for Free - <a href="register.php">  Signup!</a></p>
     </div>
     <div class="foot2">
       <ul>
