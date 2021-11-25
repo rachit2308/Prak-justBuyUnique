@@ -106,17 +106,19 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     </ul>
   </div>
 
-
+<!--FIRST SECTION-->
 <section class="product">
 <div class="first">    
   <div class="container2">
     <div class="images">
-      <p>
+      <p>ASDE
       <a href="viewmore1-1.html">
       <span class="discount-tag">29% off</span>
+      ASDF
         <img src="rings.jpg" class="product" alt="">
       </a>
       </p>
+      ASDF
     </div>
     <br>
     <strong><h2>Rings</h2></strong>
@@ -165,7 +167,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 </section>
 
 <hr>
-
+    <!--SECOND -->
 <section class="product">
 <div class="first">    
   <div class="container2">
@@ -224,7 +226,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 
 <hr>
 
-
+<!--THIRD-->
 <section class="product">
 <div class="first">    
   <div class="container2">
@@ -282,7 +284,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 </section>
 
 <hr>
-
+<!--FOURTH-->
 <section class="product">
 <div class="first">    
   <div class="container2">
@@ -339,6 +341,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 </div>
 </section>
 
+<<<<<<< HEAD
 
 <hr>
 
@@ -402,6 +405,10 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 
 
 
+=======
+<hr>
+
+>>>>>>> 3c6395a003768eafb5cc745511ea2de20410adc9
   <br>
   <br>
   <br>
