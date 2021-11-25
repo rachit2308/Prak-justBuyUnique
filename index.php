@@ -118,6 +118,8 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       </a>
       </p>
     </div>
+    <br>
+    <strong><h2>Rings</h2></strong>
   </div>
 
   <div class="container2">
@@ -129,6 +131,8 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       </a>
       </p>
     </div>
+    <br>
+    <strong><h2>Necklace</h2></strong>
   </div>
 
   <div class="container2">
@@ -136,10 +140,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore1-3.html">
       <span class="discount-tag">25% off</span>
-        <img src="earings.jpg" class="product" alt="">
+        <img src="earrings.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+    <strong><h2>Earrings</h2></strong>
   </div>
 
   <div class="container2">
@@ -151,7 +157,10 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Bangles</h2></strong>
   </div>
+ 
 </div>
 </section>
 
@@ -164,10 +173,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore2-1.html">
       <span class="discount-tag">59% off</span>
-        <img src="rings.jpg" class="product" alt="">
+        <img src="mens wear.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Men's Wear</h2></strong>
   </div>
 
   <div class="container2">
@@ -175,10 +186,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore2-2.html">
       <span class="discount-tag">69% off</span>
-        <img src="necklace.jpg" class="product" alt="">
+        <img src="womens wear.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Women's Wear</h2></strong>
   </div>
 
   <div class="container2">
@@ -186,10 +199,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore2-3.html">
       <span class="discount-tag">19% off</span>
-        <img src="earings.jpg" class="product" alt="">
+        <img src="kids wear.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Kid's Wear</h2></strong>
   </div>
 
   <div class="container2">
@@ -197,10 +212,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore2-4.html">
       <span class="discount-tag">79% off</span>
-        <img src="bangles.jpg" class="product" alt="">
+        <img src="old age wear.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Old Age Wear</h2></strong>
   </div>
 </div>
 </section>
@@ -215,10 +232,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore3-1.html">
       <span class="discount-tag">74% off</span>
-        <img src="rings.jpg" class="product" alt="">
+        <img src="formals.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Formals</h2></strong>
   </div>
 
   <div class="container2">
@@ -226,10 +245,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore3-2.html">
       <span class="discount-tag">35% off</span>
-        <img src="necklace.jpg" class="product" alt="">
+        <img src="sports.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Sports</h2></strong>
   </div>
 
   <div class="container2">
@@ -237,10 +258,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore3-3.html">
       <span class="discount-tag">19% off</span>
-        <img src="earings.jpg" class="product" alt="">
+        <img src="shoe kid.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Kids Shoe wear</h2></strong>
   </div>
 
   <div class="container2">
@@ -248,10 +271,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore3-4.html">
       <span class="discount-tag">15% off</span>
-        <img src="bangles.jpg" class="product" alt="">
+        <img src="slipper.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Slipper</h2></strong>
   </div>
 </div>
 </section>
@@ -265,10 +290,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore4-1.html">
       <span class="discount-tag">38% off</span>
-        <img src="rings.jpg" class="product" alt="">
+        <img src="telephone.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Telephone</h2></strong>
   </div>
 
   <div class="container2">
@@ -276,10 +303,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore4-2.html">
       <span class="discount-tag">29% off</span>
-        <img src="necklace.jpg" class="product" alt="">
+        <img src="telescope.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Telescope and Compass</h2></strong>
   </div>
 
   <div class="container2">
@@ -287,10 +316,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore4-3.html">
       <span class="discount-tag">24% off</span>
-        <img src="earings.jpg" class="product" alt="">
+        <img src="gramphone.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Gramophone</h2></strong>
   </div>
 
   <div class="container2">
@@ -298,10 +329,72 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
       <p>
       <a href="viewmore4-4.html">
       <span class="discount-tag">17% off</span>
-        <img src="bangles.jpg" class="product" alt="">
+        <img src="handicraft.jpg" class="product" alt="">
       </a>
       </p>
     </div>
+    <br>
+  <strong><h2>Wine Set</h2></strong>
+  </div>
+</div>
+</section>
+
+
+<hr>
+
+
+<section class="product">
+<div class="first">    
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore5-1.html">
+      <span class="discount-tag">38% off</span>
+        <img src="wallet.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+    <br>
+  <strong><h2>Wallet</h2></strong>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore5-2.html">
+      <span class="discount-tag">29% off</span>
+        <img src="watch.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+    <br>
+  <strong><h2>Watch</h2></strong>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore5-3.html">
+      <span class="discount-tag">24% off</span>
+        <img src="Charcuterie Planks.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+    <br>
+  <strong><h2>Charcuterie Planks</h2></strong>
+  </div>
+
+  <div class="container2">
+    <div class="images">
+      <p>
+      <a href="viewmore5-4.html">
+      <span class="discount-tag">17% off</span>
+        <img src="necklace with flower.jpg" class="product" alt="">
+      </a>
+      </p>
+    </div>
+    <br>
+  <strong><h2>Necklace With Flower</h2></strong>
   </div>
 </div>
 </section>
@@ -309,153 +402,6 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 
 
 
-<hr>
-
-
-
-
-<!-- ITEM
-    <div class="first">
-      <div class = "container2">
-        <div class="images">
-            <img src="rings.jpg" width="80%" height="75%">
-            Handmade Rings
-            <br>
-            <button class="btn"><a href="viewmore1-1.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="necklace.jpg" width="100%" height="75%">
-             Handmade Necklace
-            <br> 
-            <button class="btn"><a href="viewmore1-2.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="earings.jpg" width="100%" height="75%">
-           Handmade Earrings
-            <br>
-            <button class="btn"><a href="viewmore1-3.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="bangles.jpg" width="100%" height="75%">
-           Handmade Bangles
-            <br> 
-            <button class="btn"><a href="viewmore1-4.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="purse.jpg" width="100%" height="75%">
-           Handmade Bags and Purses
-            <br> 
-            <button class="btn"><a href="viewmore1-5.html">View More</a></button>
-        </div>
-    </div>
-
-    
-    <div class="second">
-      <div class = "container3">
-        <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5MpRjYORCUlqzCcs4oqq6xUM7zOxUgNoj1Q&usqp=CAU" width="100%" height="75%">
-             Men's Traditional Kurta <br>
-            <button class="btn"><a href="viewmore2-1.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNyWEoo7ycMkUECRi71AKZiSomoEnwNiiig&usqp=CAU" width="100%" height="75%">
-            Women's Traditional Saree
-            <br> 
-            <button class="btn"><a href="viewmore2-2.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqbdCk1r4hrPmobaU5wYY3pk1bRUXpAiqanQ&usqp=CAU" width="100%" height="75%">
-            Kids Traditional Wear 
-            <br>
-            <button class="btn"><a href="viewmore2-3.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxkHcokMz26VKamz1bi2oYHZfnZB-ohvROg&usqp=CAU" width="100%" height="75%">       
-            Old Age Group Wear
-            <br> 
-            <button class="btn"><a href="viewmore2-4.html">View More</a></button>
-        </div>
-    </div>
-    </div>
-    <div class="third">
-      <div class = "container">
-        <div class="images" style="width: 55%;">
-            <img src="men slipper.jpg" width="100%" height="75%">
-            Men's Handmade 
-            <br>
-            <button class="btn"><a href="viewmore3-1.html">View More</a></button>
-        </div>
-        <div class="images" >
-            <img src="ladie slipper.jpg" width="80%" height="75%"><br>
-            Ladies Handmade
-            <br> 
-            <button class="btn"><a href="viewmore3-2.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="shoe kid.jpg" width="80%" height="75%"><br>
-            Kid's Handmade
-            <br>
-            <button class="btn"><a href="viewmore3-3.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="kohlapuri.jpg" width="100%" height="75%">
-            Kohlapuri Chhapal Handmade
-            <br> 
-            <button class="btn"><a href="viewmore3-4.html">View More</a></button>
-        </div>  
-    </div>
-    </div>
-    <!-- names -->
-    <!-- <div class="fourth">
-      <div class = "container4">
-        <div class="images" style="width:45%" >
-            <img src="telephone.jpg" width="100%" height="75%"><br>
-            Antique Telephone Vintage Item<br>
-            <button class="btn"><a href="viewmore4-1.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="telescope.jpg" width="100%" height="75%">
-            VINTAGE TELESCOPE AND COMPAS<br>
-            <button class="btn"><a href="viewmore4-2.html">View More</a></button>
-        </div>
-        <div class="images" style="width: 50%;">
-            <img src="gramophone.jpg" width="80%" height="75%">
-            Gramophone Record Player <br>
-            <button class="btn"><a href="viewmore4-3.html">View More</a></button>
-        </div>
-        <div class="images" style="width: 50%;">
-            <img src="handicraft.jpg" width="80%" height="75%"><br>
-            Brk Handicraft Premium Antique Wine Set<br>
-            <button class="btn"><a href="viewmore4-4.html">View More</a></button>
-        </div>
-    </div>
-    <br><br>
-
-    </div>
-    <div class="fifth">
-      <div class = "container">
-        <div class="images">
-            <img src="gift1.jpg" width="100%" height="65%">
-            Anniversary Gift for Him,Personalized Wallet,Mens Wallet,Engraved Wallet,Leather Wallet<br>
-            <button class="btn"><a href="viewmore5-1.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="gift2.jpg" width="100%" height="65%">
-            Anniversary Gift for Him,Wood Watch,Personalized Watch,Engraved Watch,Wooden Watch<br>
-            <button class="btn"><a href="viewmore5-2.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="gift3.jpg" width="100%" height="65%">
-            Personalized Charcuterie Planks and Beer Flights - 4 Styles and Gift Sets Available for Cooking<br>
-            <button class="btn"><a href="viewmore5-3.html">View More</a></button>
-        </div>
-        <div class="images">
-            <img src="gift4.jpg" width="100%" height="65%">
-            Custom Name Necklace with Birth Flower,Dainty Personalized Minimalist Jewelry<br>
-            <button class="btn"><a href="viewmore5-4.html">View More</a></button>
-        </div>
-    </div>
-    </div> -->
   <br>
   <br>
   <br>
@@ -500,7 +446,6 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     <a class="footer-link" href="https://twitter.com/home"><i class="social-icon fab fa-twitter fa-2x"></i></a>
   </div>
 
-
   <br>
   <br>
   <footer class="footer"> 
@@ -509,7 +454,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
         <div class="foot-col">
         <h3>The Company</h3>
         <ul>
-            <li><a href="index.html">Prak-in</a></li>
+            <li><a href="index.php">Prak-in</a></li>
             <li><a href="Termsofuse.html">Terms Of Use</a></li><!-- terms of use -->
             <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448916.46637213975!2d77.02115597496018!3d28.47473097589749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddb5f03b5b71%3A0x391747e4bedfcb19!2sHaldiram&#39;s!5e0!3m2!1sen!2sin!4v1622612697128!5m2!1sen!2sin" target="iframe_a">Site Map</a></li>
             <li><iframe src="" name="iframe_a" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
