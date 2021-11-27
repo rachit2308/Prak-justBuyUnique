@@ -63,6 +63,9 @@ $password = "";
       <li class="nav-item">
         <a class="nav-link" href="contactUs.html">Contact us</a>
       </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="salep.html">sale price</a>
+      </li>   
     </ul>
   </div>
 </nav>

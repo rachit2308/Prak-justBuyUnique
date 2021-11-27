@@ -21,6 +21,11 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 
 </head>
 <body>
+  <?php
+$per_off = $_POST['price'];
+?>
+
+
 <!--NAVIGATION BAR -->
   <nav class ="navbar">
     <div class="nav">
@@ -122,7 +127,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     <div class="images">
       <p>
       <a href="viewmore1-1.html">
-      <span class="discount-tag">29% off</span>
+      <span class="discount-tag"><?php echo"$per_off%"." off";?></span>
         <img src="rings.jpg" class="product" alt="">
       </a>
       </p>
@@ -135,7 +140,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     <div class="images">
       <p>
       <a href="viewmore1-2.html">
-      <span class="discount-tag">21% off</span>
+      <span class="discount-tag"><?php echo"$per_off%"." off";?></span>
         <img src="necklace.jpg" class="product" alt="">
       </a>
       </p>
