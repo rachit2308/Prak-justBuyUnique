@@ -66,6 +66,12 @@ body{
 }
 .nav-items a img{
     width: 30px;
+    
+}
+.dropdown
+{
+    margin-left: 80px;
+    margin-bottom: 10px;
 }
 
         /*HEADER*/
@@ -91,8 +97,9 @@ h3{
         /*DROPDOWN MENU */
 
 .menu{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(2, 2, 51);
     text-align: center;
+    
 }   
 .menu ul{
     list-style: none;
@@ -116,7 +123,8 @@ margin-left: 5px;                  /* icon spacing*/
     background-color: tomato;   /* hover color */
 }
 .dropdown1{
-display: none;               /* dropdown menu  aka submenu display is removed*/
+    display: none;
+    z-index: 2;               /* dropdown menu  aka submenu display is removed*/
 }
 .menu ul li:hover .dropdown1{
     display: block;
@@ -144,6 +152,7 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    background: #FFE6CA;
 }
  .first::-webkit-scrollbar {
     display: none;
@@ -242,7 +251,7 @@ display: none;               /* dropdown menu  aka submenu display is removed*/
 .main{
     display: flex;
     height: 300px;
-    background-color: cornflowerblue;
+    background-color: #ECFBFC;
 }
 .outer{
     text-align: center;
@@ -333,12 +342,12 @@ ul
 {
     background-color: #21262b;
     padding: 70px 0px;
-    height: 400px;
+    height: 350px;
 }
 .foot-col
 {
      width: 25%;
-     padding: 0 20px;
+     padding: 0 10px;
 }
 .foot-col h3
 {
@@ -393,10 +402,11 @@ ul
 .foot1 a
 {
     text-decoration: none;
+    color: #ffffff;
 }
 .foot1 p
 {
-    color: #ffffff;
+    color: #FCD307;
 }
 .foot2
 {
@@ -410,22 +420,19 @@ padding-bottom: 20px;
 .foot2 a
 {
     display: inline-block;
-    height: 50px;
-    width: 50px;
-    background-color: rgba(255,255,255,0.2);
     margin: 0 100px 20px 0;
     text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    color: #ffffff;
+    line-height: 100px;
+    border-radius: 10%;
+    color: #f8f6fa;
     
 }
 
 .foot3{
-    background-color: #383838a2;
-    width: 50%;
-    margin-left:330px ;
-    color: rgb(255, 255, 255);
+    background-color: #0e0c72a2;
+    width: 100%;
+    /* margin-left:330px ; */
+    color: #000033;
     
     
 }
@@ -442,16 +449,18 @@ padding-bottom: 20px;
 /* Bottom container reach us at */
 .bottom-container{ 
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
-
-    background-color: #b1aeae;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FCF9EA;
 }
 
 .footer-link {
     margin-left: 3rem;
 }
 
+.footer-link a {
+    margin-top: 2rem;
+}
 
 
 

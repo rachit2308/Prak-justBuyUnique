@@ -1,6 +1,9 @@
 <?php
 session_start();
+if(isset($_SESSION['username']))
+{
 echo "WELCOME"."  ".strtoupper($_SESSION['username']);
+}
 ?>
 
 <!DOCTYPE html>
@@ -11,20 +14,26 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRAK-justBuyUnique</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <!--NAVIGATION BAR -->
   <nav class ="navbar">
     <div class="nav">
 
-        <h1>𝓟𝓡𝓐𝓚</h1>
+        <h1>Pяак</h1>
         <div class="nav-items">
           <div class="search">
             <input type="text" class="search-box" placeholder="Search-unique">
             <button class="search-btn"> Search</button>
           </div>
-        <a href="login.php"><img src="user.png" alt="user"></a>
-        <a href="#"><img src="cart.png" alt="cart"></a>      
+        <a href="login.php"><img src="user.png"  class="img" alt="user"></a>   
+        <a href="logout.php"><img src="logout.png" class="img" alt="logout"></a>
+
       </div>
     </div>
   </nav>
@@ -111,14 +120,12 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 <div class="first">    
   <div class="container2">
     <div class="images">
-      <p>ASDE
+      <p>
       <a href="viewmore1-1.html">
       <span class="discount-tag">29% off</span>
-      ASDF
         <img src="rings.jpg" class="product" alt="">
       </a>
       </p>
-      ASDF
     </div>
     <br>
     <strong><h2>Rings</h2></strong>
@@ -341,8 +348,6 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 </div>
 </section>
 
-<<<<<<< HEAD
-
 <hr>
 
 
@@ -403,17 +408,13 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 </section>
 
 
-
-
-=======
 <hr>
 
->>>>>>> 3c6395a003768eafb5cc745511ea2de20410adc9
   <br>
   <br>
   <br>
   <br>
-  <div class="bottom-mid">WHAT IS PRAK ?</div>
+  <div class="bottom-mid">𝓦𝓱𝓪𝓽 𝓲𝓼 𝓟𝓻𝓪𝓴?</div>
   <br>
   <h3><a href="files/story.html">Read our wonderfully weird story</a></h3>
  
@@ -447,6 +448,8 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 <!-- reach us at -->
   <div class="bottom-container">
     <h2>Reach us at:</h2>
+    <br>  
+    <br>
     <a class="footer-link" href="mailto:prakhub.inc@gmail.com"><i class="social-icon fas fa-envelope fa-2x"></i></a>
     <a class="footer-link" href="https://www.instagram.com/"><i class="social-icon fab fa-instagram fa-2x"></i></a>
     <a class="footer-link" href="https://www.telegram.com/9170852086"><i class="social-icon fab fa-telegram fa-2x"></i></a>
@@ -463,8 +466,7 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
         <ul>
             <li><a href="index.php">Prak-in</a></li>
             <li><a href="Termsofuse.html">Terms Of Use</a></li><!-- terms of use -->
-            <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448916.46637213975!2d77.02115597496018!3d28.47473097589749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cddb5f03b5b71%3A0x391747e4bedfcb19!2sHaldiram&#39;s!5e0!3m2!1sen!2sin!4v1622612697128!5m2!1sen!2sin" target="iframe_a">Site Map</a></li>
-            <li><iframe src="" name="iframe_a" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <li><a href="map.html">Site Map</a></li>
            </ul>
         </div>
       <div class="foot-col">
