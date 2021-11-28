@@ -21,9 +21,9 @@ echo "WELCOME"."  ".strtoupper($_SESSION['username']);
 
 </head>
 <body>
-  <?php
+  <!-- <?php
 $per_off = $_POST['price'];
-?>
+?> -->
 
 
 <!--NAVIGATION BAR -->
@@ -57,7 +57,6 @@ $per_off = $_POST['price'];
             <li><a href="viewmore1-2.html">Necklace</a></li>
             <li><a href="viewmore1-3.html">earings</a></li>
             <li><a href="viewmore1-4.html">Braclets</a></li>
-            <li><a href="viewmore1-4.html">Braclets</a></li>
           </ul>                      
         </div>
       </li>
@@ -85,7 +84,7 @@ $per_off = $_POST['price'];
             <li><a href="viewmore3-1.html">Men's </a></li>
             <li><a href="viewmore3-2.html">Women's</a></li>
             <li><a href="viewmore3-3.html">Kid's</a></li>
-            <li><a href="viewmore3-4.html">Kohlapuri</a></li>
+            <li><a href="viewmore3-4.html">slipper</a></li>
           </ul>
         </div>
       </li>
@@ -93,7 +92,7 @@ $per_off = $_POST['price'];
             <!--VINTAGE-->
 
       <li>
-        <a href="#">Vintage <i class="fa fa-caret-down" ></i></a>
+        <a href="#">Vintage <i class="fa fa-caret-down"></i></a>
         <div class="dropdown1">
           <ul>
             <li><a href="viewmore4-1.html">Telephone</a></li>
@@ -120,6 +119,9 @@ $per_off = $_POST['price'];
     </ul>
   </div>
 
+<?php
+
+?>
 <!--FIRST SECTION-->
 <section class="product">
 <div class="first">    
@@ -127,20 +129,20 @@ $per_off = $_POST['price'];
     <div class="images">
       <p>
       <a href="viewmore1-1.html">
-      <span class="discount-tag"><?php echo"$per_off%"." off";?></span>
+      <span class="discount-tag">25%<?php echo"$per_off"." off";?></span>
         <img src="rings.jpg" class="product" alt="">
       </a>
       </p>
     </div>
     <br>
-    <strong><h2>Rings</h2></strong>
+    <strong><h2> Rings</h2></strong>
   </div>
 
   <div class="container2">
     <div class="images">
       <p>
       <a href="viewmore1-2.html">
-      <span class="discount-tag"><?php echo"$per_off%"." off";?></span>
+      <span class="discount-tag">15%<?php echo"$per_off"." off";?></span>
         <img src="necklace.jpg" class="product" alt="">
       </a>
       </p>
@@ -177,8 +179,10 @@ $per_off = $_POST['price'];
  
 </div>
 </section>
+<br>
+<br>
+<br>
 
-<hr>
     <!--SECOND -->
 <section class="product">
 <div class="first">    
